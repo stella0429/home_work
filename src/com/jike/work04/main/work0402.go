@@ -1,5 +1,9 @@
 package main
 
+import (
+	_"fmt"
+)
+
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
@@ -23,6 +27,6 @@ func dfs(node *TreeNode) {
 	}
 }
 
-func mian() {
+func main() {
 
 }
