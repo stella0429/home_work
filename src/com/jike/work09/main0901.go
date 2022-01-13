@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//遍历字符串，遇到字符在A到Z之间的字符，通过加32转成小写
 func toLowerCase(s string) string {
 	res := make([]byte, len(s))
 	for i := 0; i < len(s); i++ {

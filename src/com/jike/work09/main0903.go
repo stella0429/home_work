@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//先遍历宝石类型，映射成hash map；再遍历石头，如果在hash map中存在，就进行累加
 func numJewelsInStones(jewels string, stones string) int {
 	var (
 		tempMap = make(map[byte]bool, len(jewels))
