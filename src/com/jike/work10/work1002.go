@@ -18,7 +18,7 @@ func fallingSquares(positions [][]int) []int {
 		}
 	}
 
-	//更新当前坐标高度，以及每组左边的最新高度
+	//更新当前坐标高度，以及后面几组坐标的最新高度
 	for k, v := range positions {
 		temp[k] += v[1]
 		for i := k + 1; i < len(positions); i++ {
